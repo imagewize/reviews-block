@@ -9,7 +9,7 @@
 	"description": "Display customer reviews in a three-column layout",
 	"supports": {
 		"html": false,
-		"align": ["none", "wide", "full"],
+		"align": ["wide", "full"],
 		"color": {
 			"background": true,
 			"text": true,
