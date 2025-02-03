@@ -1,1 +1,1 @@
-console.log("Hello World! (from create-block-reviews-block block)");
+console.log("Hello World! (from imagewize-reviews-block block)");
