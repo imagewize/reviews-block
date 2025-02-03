@@ -1,0 +1,48 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/reviews-block",
+	"version": "0.1.0",
+	"title": "Reviews Block",
+	"category": "widgets",
+	"icon": "star-filled",
+	"description": "Display customer reviews in a three-column layout",
+	"supports": {
+		"html": false,
+		"align": ["none", "wide", "full"],
+		"color": {
+			"background": true,
+			"text": true,
+			"link": true,
+			"gradients": true
+		},
+		"spacing": {
+			"padding": true,
+			"margin": true
+		},
+		"layout": {
+			"default": {
+				"type": "constrained"
+			}
+		}
+	},
+	"attributes": {
+		"align": {
+			"type": "string",
+			"default": "full"
+		},
+		"backgroundColor": {
+			"type": "string",
+			"default": "orange-500"
+		},
+		"textColor": {
+			"type": "string",
+			"default": "white"
+		}
+	},
+	"textdomain": "reviews-block",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}

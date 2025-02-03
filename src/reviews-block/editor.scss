@@ -1,0 +1,27 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-reviews-block {
+	border: 1px dotted #f00;
+
+    .block-editor-inner-blocks {
+        width: 100%;
+    }
+
+    .wp-block-columns {
+        gap: 2rem;
+    }
+
+    .wp-block-image {
+        margin: 0 auto;
+        img {
+            border-radius: 100px;
+            aspect-ratio: 1;
+            object-fit: cover;
+            width: 95px;
+        }
+    }
+}
