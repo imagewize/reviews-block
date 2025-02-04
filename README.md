@@ -19,9 +19,21 @@ The Reviews Block is a custom WordPress block that helps you showcase customer t
 
 ## Installation
 
+### Via Composer
+```bash
+composer require imagewize/reviews-block
+```
+
+### Manual Installation
 1. Upload the plugin files to `/wp-content/plugins/reviews-block`
 2. Activate the plugin through the WordPress plugins screen
 3. Use the Reviews Block in any post or page via the Block Editor
+
+## Requirements
+
+- PHP 8.0 or higher
+- WordPress 6.7+
+- Composer (if installing via Composer)
 
 ## Usage
 
@@ -58,6 +70,7 @@ For support questions or bug reports, please use the GitHub issues section.
 
 ### 1.0.0-beta
 - Initial beta release
+- Added Composer package support
 - Three-column review layout
 - Customizable colors and spacing
 - Responsive design
