@@ -28,7 +28,7 @@ import profile3 from './assets/profile3.webp';
 
 const TEMPLATE = [
     ['core/group', { 
-        layout: { type: 'constrained', wideSize: '900px' },
+        layout: { type: 'constrained' },
         align: 'wide'
     }, [
         ['core/spacer', { height: '80px' }],
