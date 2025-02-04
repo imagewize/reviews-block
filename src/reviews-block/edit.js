@@ -27,16 +27,22 @@ import profile2 from './assets/profile2.webp';
 import profile3 from './assets/profile3.webp';
 
 const TEMPLATE = [
-    ['core/group', { layout: { type: 'constrained' } }, [
+    ['core/group', { 
+        layout: { type: 'constrained', wideSize: '900px' },
+        align: 'wide'
+    }, [
         ['core/spacer', { height: '80px' }],
         ['core/heading', {
             textAlign: 'center',
+            align: 'wide',
             content: 'Client Reviews.',
             fontSize: '3xl',
             fontFamily: 'open-sans',
             style: { typography: { fontWeight: '600' } }
         }],
-        ['core/columns', {}, [
+        ['core/columns', { 
+            align: 'wide'
+        }, [
             ['core/column', {}, [
                 ['core/group', { 
                     layout: { type: 'flex', orientation: 'vertical', justifyContent: 'center' },
