@@ -33,14 +33,18 @@
     }
 
     .wp-block-column {
-        display: flex;
-        justify-content: center;
-        
+        // Remove the forced flex centering
         .wp-block-group {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
             max-width: 380px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    // Let the block's own alignment controls handle this
+    .wp-block-group {
+        &[class*="is-style-"] {
+            width: 100%;
         }
     }
 }
