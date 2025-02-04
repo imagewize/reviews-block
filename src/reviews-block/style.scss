@@ -31,4 +31,20 @@
     .wp-block-paragraph {
         font-size: var(--wp--preset--font-size--lg);
     }
+
+    .wp-block-column {
+        // Remove the forced flex centering
+        .wp-block-group {
+            max-width: 380px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    // Let the block's own alignment controls handle this
+    .wp-block-group {
+        &[class*="is-style-"] {
+            width: 100%;
+        }
+    }
 }

@@ -10,6 +10,7 @@
   "supports": {
     "html": false,
     "align": [
+      "none",
       "wide",
       "full"
     ],
@@ -32,7 +33,7 @@
   "attributes": {
     "align": {
       "type": "string",
-      "default": "full"
+      "default": "wide"
     },
     "backgroundColor": {
       "type": "string",
