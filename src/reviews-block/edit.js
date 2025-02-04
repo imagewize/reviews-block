@@ -105,8 +105,13 @@ const TEMPLATE = [
     ]]
 ];
 
-export default function Edit() {
-    const blockProps = useBlockProps();
+export default function Edit({ attributes }) {
+    const blockProps = useBlockProps({
+        style: {
+            backgroundColor: attributes.backgroundColor,
+            color: attributes.textColor
+        }
+    });
     return (
         <div {...blockProps}>
             <InnerBlocks template={TEMPLATE} />

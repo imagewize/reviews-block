@@ -10,7 +10,6 @@
   "supports": {
     "html": false,
     "align": [
-      "none",
       "wide",
       "full"
     ],
@@ -37,7 +36,7 @@
     },
     "backgroundColor": {
       "type": "string",
-      "default": "orange-500"
+      "default": "#f97316"
     },
     "textColor": {
       "type": "string",
