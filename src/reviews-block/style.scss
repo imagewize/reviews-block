@@ -41,6 +41,14 @@
         }
     }
 
+    @media (max-width: 781px) {
+        .wp-block-column {
+            .wp-block-group {
+                max-width: 70vw;
+            }
+        }
+    }
+
     // Let the block's own alignment controls handle this
     .wp-block-group {
         &[class*="is-style-"] {
