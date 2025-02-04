@@ -15,8 +15,13 @@ import { useBlockProps, InnerBlocks } from '@wordpress/block-editor';
  *
  * @return {Element} Element to render.
  */
-export default function save() {
-    const blockProps = useBlockProps.save();
+export default function save({ attributes }) {
+    const blockProps = useBlockProps.save({
+        style: {
+            backgroundColor: attributes.backgroundColor,
+            color: attributes.textColor
+        }
+    });
     return (
         <div {...blockProps}>
             <InnerBlocks.Content />
