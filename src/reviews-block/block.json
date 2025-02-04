@@ -4,7 +4,7 @@
 	"name": "imagewize/reviews-block",
 	"version": "0.1.0",
 	"title": "Reviews Block",
-	"category": "widgets",
+	"category": "text",
 	"icon": "star-filled",
 	"description": "Display customer reviews in a three-column layout",
 	"supports": {
