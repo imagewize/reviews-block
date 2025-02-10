@@ -32,7 +32,7 @@
   "attributes": {
     "align": {
       "type": "string",
-      "default": "wide"
+      "default": "full"
     },
     "backgroundColor": {
       "type": "string",
