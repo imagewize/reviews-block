@@ -38,7 +38,10 @@ const TEMPLATE = [
             content: 'Client Reviews.',
             fontSize: '3xl',
             fontFamily: 'open-sans',
-            style: { typography: { fontWeight: '600' } }
+            style: { 
+                typography: { fontWeight: '600' },
+                color: { text: '#ffffff' }
+            }
         }],
         ['core/columns', { 
             align: 'wide'
@@ -58,7 +61,8 @@ const TEMPLATE = [
                         align: 'center',
                         fontSize: 'lg',
                         fontFamily: 'open-sans',
-                        content: 'We have hired Jasper a couple of times and he always does a great job and in a timely manner! He is very good at what he does and we continue to use him for our projects.'
+                        content: 'We have hired Jasper a couple of times and he always does a great job and in a timely manner! He is very good at what he does and we continue to use him for our projects.',
+                        style: { color: { text: '#ffffff' } }
                     }]
                 ]]
             ]],
@@ -77,7 +81,8 @@ const TEMPLATE = [
                         align: 'center',
                         fontSize: 'lg',
                         fontFamily: 'open-sans',
-                        content: 'His communication was top-notch, he met all deadlines, and his skills were very strong. He was proficient in WordPress, Woo Commerce, Shopify and programming on those platforms to get our new Shopify site up and running.'
+                        content: 'His communication was top-notch, he met all deadlines, and his skills were very strong. He was proficient in WordPress, Woo Commerce, Shopify and programming on those platforms to get our new Shopify site up and running.',
+                        style: { color: { text: '#ffffff' } }
                     }]
                 ]]
             ]],
@@ -96,7 +101,8 @@ const TEMPLATE = [
                         align: 'center',
                         fontSize: 'lg',
                         fontFamily: 'open-sans',
-                        content: 'Couldn\'t have done this job without jasper and he did a great job. My website now runs faster than ever. Would definitely hire again.'
+                        content: 'Couldn\'t have done this job without jasper and he did a great job. My website now runs faster than ever. Would definitely hire again.',
+                        style: { color: { text: '#ffffff' } }
                     }]
                 ]]
             ]]
